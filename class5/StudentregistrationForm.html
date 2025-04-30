@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student registration Form</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <form action="https://example.com.submit" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" required><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" required><br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="birthday" required><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="male">
+            <label for="gender">Male</label>
+            <input type="radio" name="female">
+            <label for="male">Female</label>
+            <input type="radio" name="gender">
+            <label for="male">Other</label><br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" required><br><br>
+            <label for="mobile_number">Mobile Number:</label>
+            <input type="text" name="mobile_number" required><br><br>
+        </form>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Address Information</legend>
+        <form action="https://example.com.submit" method="post">
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="address" style="padding: 5px;"></textarea><br><br>
+            <label for="city">City:</label>
+            <select name="cities" id="cities">
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Pune">Pune</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Surat">Surat</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Kanpur">Kanpur</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Indore">Indore</option>
+                <option value="Thane">Thane</option>
+                <option value="Bhopal">Bhopal</option>
+                <option value="Visakhapatnam">Visakhapatnam</option>
+                <option value="Patna">Patna</option>
+                <option value="Vadodara">Vadodara</option>
+                <option value="Ghaziabad">Ghaziabad</option>
+                <option value="Ludhiana">Ludhiana</option>
+                <option value="Agra">Agra</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Faridabad">Faridabad</option>
+                <option value="Meerut">Meerut</option>
+                <option value="Rajkot">Rajkot</option>
+                <option value="Varanasi">Varanasi</option>
+                <option value="Srinagar">Srinagar</option>
+                <option value="Amritsar">Amritsar</option>
+                <option value="Ranchi">Ranchi</option>
+                <option value="Jodhpur">Jodhpur</option>
+                <option value="Guwahati">Guwahati</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Jabalpur">Jabalpur</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Raipur">Raipur</option>
+                <option value="Kochi">Kochi</option>
+                <option value="Dehradun">Dehradun</option>
+                <option value="Noida">Noida</option>
+                <option value="Shillong">Shillong</option>
+                <option value="Aizawl">Aizawl</option>
+                <option value="Imphal">Imphal</option>
+                <option value="Itanagar">Itanagar</option>
+                <option value="Gangtok">Gangtok</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="PortBlair">Port Blair</option>
+                <option value="Kavaratti">Kavaratti</option>
+                <option value="Leh">Leh</option>
+                <option value="Kargil">Kargil</option>
+            </select><br><br>
+            <label for="state">State:</label>
+            <select id="states" required>
+                <option value="AndhraPradesh">Andhra Pradesh</option>
+                <option value="ArunachalPradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="HimachalPradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="MadhyaPradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="TamilNadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="UttarPradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="WestBengal">West Bengal</option>
+                <option value="AndamanNicobarIslands">Andaman and Nicobar Islands</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="DadraNagarHaveliDamanDiu">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="JammuKashmir">Jammu and Kashmir</option>
+                <option value="Ladakh">Ladakh</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Puducherry">Puducherry</option>
+            </select><br><br>
+            <label for="Zipcode">Zip Code:</label>
+            <input type="text" name="ZipCode" required><br><br>
+        </form>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Educational Information</legend>
+        <form action="https://example.com.submit">
+            <label for="highSchool">High School:</label>
+            <input type="text" name="highschool"><br><br>
+            <label for="GPA">GPA:</label>
+            <input type="text" name="GPA"><br><br>
+            <label for="Intendedmajor">Intended Major:</label>
+            <input type="text" name="intendedmajor"><br><br>
+            <label for="yog">Year of Graduation:</label>
+            <input type="text" name="yog"><br><br>
+        </form>
+    </fieldset>
+    <hr>
+    <fieldset>
+        <legend>Additional Information</legend>
+        <form action="https://example.com.submit">
+            <label for="interestsandhobbies">Interests and Hobbies:</label><br><br>
+            <textarea name="interestsandhobbies" id="interestsandhobbies"></textarea><br><br>
+            <label for="addcomments">Add Some Thoughts:</label><br><br>
+            <textarea name="addcomments" id="addcomments"></textarea><br><br>
+        </form>
+    </fieldset>
+    <hr>
+    <input type="submit" value="Register">
+</body>
+</html>
